@@ -2,44 +2,172 @@
 <html lang = "pt-br">
     <head>
         <meta charset = "UTF-8">
-        <meta name = "viewport" content="width = device-width">
+        <meta name = "viewport" content="width = device-width, initial-scale 1.0">
+        <link rel="stylesheet" href = "./styles/reset.css">
+        <link rel="stylesheet" href = "./styles/style.css">
         <title>Portifólio | Vívian Alkmim</title>
+        
     </head>
     <body>
         <header class = "cabecalho">
-            <title class = "cabecalho__titulo"></title>
+            <h3 class = "cabecalho__titulo"> Vívian Alkmim</h3>
+            <nav class = "cabecalho__menu">
+                <ul class = "menu__lista">
+                    <li class = "menu__item"><a href ="#sobremim"> Sobre mim </a></li>
+                    <li class = "menu__item"><a href ="#skills">Skills</a></li>
+                    <li class = "menu__item"><a href ="#hobbies">Hobbies</a></li>
+                    <li class = "menu__item"><a href ="#formacao">Formação</a></li>
+                    <li class = "menu__item"><a href ="#projetos">Projetos</a></li>
+                    <li class = "menu__item"><a href ="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </header>
 
-        <section class = "menu__principal">
+        <section class = "titulo">
+            <div class="titulo__div">
+                <img class="" src="">
+                <div class="titulo__container" id="#sobremim">
+                    <h2 class="titulo__bio">Olá, meu nome é Vívian, e construo páginas web</h2>
+                    <h3 class="titulo__descricao">Eu sou formada em Odontologia e recentemente iniciei um processo de transicão para área de tecnologia, que sempre despertou meu interesse e curiosidade. Para trilhar esse novo caminho, atualmente estou participando no projeto Oracle ONE na Alura.</h3>
+                    <ul class="titulo__redes">
+                        <li class="titulo__redes__item"><a href="">Github <img src=""> </a></li>
+                        <li class="titulo__redes__item"><a href="">Linkedin <img src=""></a></li>
+                        <li class="titulo__redes__item"><a href="">Instagram <img src=""></a></li>
+                        <li class="titulo__redes__item"><a href="">Curriculo <img src=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class = "sobre__mim">
+            <div class = "sobre__container">
+                <h3 class = "sobre__titulo">Sobre Mim</h3>
+                <p classe = "sobre__paragrafo"></p>
+            </div>
+        </section>
+
+        <section class = "skills">
+            <h3 class = "skills__titulo" id="skills"></h3>
+             <div class = "skills__box">
+                <ul>
+                 <li class = "skills__img"><img src="" alt=""></li>
+                 <li class = "skills__item">Html 5</li>
+                </ul> 
+             </div>
+
+             <div class = "skills__box">
+                <ul>
+                 <li class = "skills__img"><img src="" alt=""></li>
+                 <li class = "skills__item">Javascript</li>
+                </ul> 
+             </div>
+
+             <div class = "skills__box">
+                <ul>
+                 <li class = "skills__img"><img src="" alt=""></li>
+                 <li class = "skills__item">CSS</li>
+                </ul> 
+             </div>
 
         </section>
 
-        <section class = "secao__sobre-mim">
+        <section class = "hobbies" id="hobbies">
+            <h3 class = 'hobbies__titulo'></h3>
+
+            <div class = "hobbies__box">
+                <ul>
+                 <li class = "hobbies__img"><img src="" alt=""></li>
+                 <li class = "hobbies__item">Assistir séries</li>
+                </ul> 
+             </div>
+
+             <div class = "hobbies__box">
+                <ul>
+                 <li class = "hobbies__img"><img src="" alt=""></li>
+                 <li class = "hobbies__item">Ouvir música</li>
+                </ul> 
+             </div>
+
+             <div class = "hobbies__box">
+                <ul>
+                 <li class = "hobbies__img"><img src="" alt=""></li>
+                 <li class = "hobbies__item">Ler</li>
+                </ul> 
+             </div>
+
+             <div class = "hobbies__box">
+                <ul>
+                 <li class = "hobbies__img"><img src="" alt=""></li>
+                 <li class = "hobbies__item">Jogar</li>
+                </ul> 
+             </div>
 
         </section>
 
-        <section class = "secao__hobbies">
+        <section class = "formacao">
+            <h2 class = "formacao__titulo" id="formacao">Formação acadêmica</h2>
+                <div class="formacao__box">
+                    <ul class="formacao__lista">
+                        <li class="formacao__img"><img src=""></li>
+                        <li class="formacao__titulo"><h4>Odontologia</h4></li>
+                        <li class="formacao__subtitulo"><p>2021 - Unimontes</p></li>
+                    </ul>
+                </div>
+
+                <div class="formacao__box">
+                    <ul class="formacao__lista">
+                        <li class="formacao__img"><img src=""></li>
+                        <li class="formacao__titulo"><h4>Front-end</h4></li>
+                        <li class="formacao__subtitulo"><p>Em andamento - Alura</p></li>
+                    </ul>
+                </div>
 
         </section>
 
-        <section class = "secao__formacoes">
-
-        </section>
-
-        <section class = "secao__experiencias">
+        <section class = "projetos">
+            <h2 class = "projetos__titulo" id="projetos">Experiência profissional</h2>
+                <div class = "projetos__box">
+                    <img class ="projetos__img" src="">
+                    <div class ="projetos__info">
+                        <h2 class ="projeto__nome">Decodificador de texto</h2>
+                        <h3 class="projeto__texto">Challenge Alura Codificador </h3>
+                            <div class="projeto__descrcao">
+                                    <span class="projeto__repo"><a href=""><button class="projeto__botao--repo">Repositório</button></a></span>
+                                    <span class="projeto__demo"><a href=""><button class="projeto__botao--demo">Ver demo</button></a></span>
+                            </div>
+                    </div>
+                </div>  
 
         </section>
 
         <section class = "contato">
+            <div class = "contato__formulario" id="contato">
+                <div class= "contato__area--img">
+                    <img class = "contato__img" src="">
+                </div>
+                <div class = "contato__texto">
+                    <h2 class="contato__titulo">Contato</h2>
+                    <h3 class="contato__subtexto">Quer entrar em contato comigo?</h3>
+                    <h3 class="formulario__subtexto">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
+                    <form class="formulario">
+                        <input class="formulario__input" type="text" id="nome" placeholder="Nome">
+                        <input class="formulario__input" type="email" id="email" placeholder="Email">
+                        <input class="formulario__input" type="text" id="assunto" placeholder="Assunto">
+                        <textarea class="formulario__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+                        <button class="formulario__botao">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
 
-        </section>
-
-        <section class = "curriculo__pdf">
-            <button></button>
         </section>
 
     </body>
-    <footer class = rodape>
-
+    <footer class = "rodape">
+        <div class = "rodape__descricao">
+            <p>Desenvolvido por Vívian Alkmim</p>
+            <p>2023</p>
+        </div>
     </footer>
+    <script src=""></script>
+
 </html>
