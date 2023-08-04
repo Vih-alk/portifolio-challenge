@@ -4,13 +4,23 @@
         <meta charset = "UTF-8">
         <meta name = "viewport" content="width = device-width, initial-scale 1.0">
         <link rel="stylesheet" href = "./styles/reset.css">
-        <link rel="stylesheet" href = "./styles/style.css">
+        <link rel="stylesheet" href = "./styles/base.css">
+        <link rel="stylesheet" href = "./styles/cabecalho.css">
+        <link rel="stylesheet" href = "./styles/titulo.css">
+        <link rel="stylesheet" href = "./styles/sobre.css">
+        <link rel="stylesheet" href = "./styles/skills.css">
+        <link rel="stylesheet" href = "./styles/hobbies.css">
+        <link rel="stylesheet" href = "./styles/formacao.css">
+        <link rel="stylesheet" href = "./styles/projetos.css">
+        <link rel="stylesheet" href = "./styles/contato.css">
+        <link rel="stylesheet" href = "./styles/rodape.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
         <title>Portifólio | Vívian Alkmim</title>
-        
+
     </head>
     <body>
         <header class = "cabecalho">
-            <h3 class = "cabecalho__titulo"> Vívian Alkmim</h3>
+            <h3 class = "cabecalho__titulo"><img src="./assets/auto_awesome_black_24dp 1.png" class = "cabecalho__img"> Vívian Alkmim</h3>
             <nav class = "cabecalho__menu">
                 <ul class = "menu__lista">
                     <li class = "menu__item"><a href ="#sobremim"> Sobre mim </a></li>
@@ -25,115 +35,128 @@
 
         <section class = "titulo">
             <div class="titulo__div">
-                <img class="" src="">
                 <div class="titulo__container" id="#sobremim">
                     <h2 class="titulo__bio">Olá, meu nome é Vívian, e construo páginas web</h2>
-                    <h3 class="titulo__descricao">Eu sou formada em Odontologia e recentemente iniciei um processo de transicão para área de tecnologia, que sempre despertou meu interesse e curiosidade. Para trilhar esse novo caminho, atualmente estou participando no projeto Oracle ONE na Alura.</h3>
+                    <h3 class="titulo__descricao">Eu sou formada em Odontologia e recentemente iniciei um processo de transicão para área de tecnologia. Para trilhar esse novo caminho, atualmente estou participando no projeto Oracle ONE na Alura.</h3>
                     <ul class="titulo__redes">
-                        <li class="titulo__redes__item"><a href="">Github <img src=""> </a></li>
-                        <li class="titulo__redes__item"><a href="">Linkedin <img src=""></a></li>
-                        <li class="titulo__redes__item"><a href="">Instagram <img src=""></a></li>
-                        <li class="titulo__redes__item"><a href="">Curriculo <img src=""></a></li>
+                        <li class="titulo__redes__item"><a href="">Github <img src="./assets/arrow.png"> </a></li>
+                        <li class="titulo__redes__item"><a href="">Linkedin <img src="./assets/arrow.png"></a></li>
+                        <li class="titulo__redes__item"><a href="">Instagram <img src="./assets/arrow.png"></a></li>
+                        <li class="titulo__redes__item"><a href="">Curriculo <img src="./assets/arrow.png"></a></li>
                     </ul>
                 </div>
+            </div>
+            <div class= "titulo__imagem">
+                <div class="titulo__foto"></div>
             </div>
         </section>
 
         <section class = "sobre__mim">
             <div class = "sobre__container">
                 <h3 class = "sobre__titulo">Sobre Mim</h3>
-                <p classe = "sobre__paragrafo"></p>
+                <p classe = "sobre__paragrafo">Meu nome é Vívian Alkmim Alves,  tenho 25 anos de idade, sou brasileira e moro na cidade de Montes Claros - MG. Possuo graduação em Odontologia, pela Universidade Estadual de Montes Claros. Após me formar, atuei no setor público, inserida em uma equipe da estratégia de saúde da família.
+                    No entanto, uma vez que a área da tecnologia sempre despertou meu interesse e curiosidade, recentemente decidi iniciar um novo desafio na minha trajetória profissional, estudar programação.</p>
             </div>
         </section>
 
         <section class = "skills">
-            <h3 class = "skills__titulo" id="skills"></h3>
-             <div class = "skills__box">
-                <ul>
-                 <li class = "skills__img"><img src="" alt=""></li>
-                 <li class = "skills__item">Html 5</li>
-                </ul> 
-             </div>
+            <h3 class = "skills__titulo" id="skills">Skills</h3>
+            <div class = "skills__area">
+                <div class = "skills__box">
+                    <ul>
+                    <li class = "skills__img"><img src="./assets/htlm.png" alt="Ícone html"></li>
+                    <li class = "skills__item">Html 5</li>
+                    </ul> 
+                </div>
 
-             <div class = "skills__box">
-                <ul>
-                 <li class = "skills__img"><img src="" alt=""></li>
-                 <li class = "skills__item">Javascript</li>
-                </ul> 
-             </div>
+                <div class = "skills__box">
+                    <ul>
+                    <li class = "skills__img"><img src="./assets/js_icon.png" alt="Ícone Javascript"></li>
+                    <li class = "skills__item">Javascript</li>
+                    </ul> 
+                </div>
 
-             <div class = "skills__box">
-                <ul>
-                 <li class = "skills__img"><img src="" alt=""></li>
-                 <li class = "skills__item">CSS</li>
-                </ul> 
-             </div>
+                <div class = "skills__box">
+                    <ul>
+                    <li class = "skills__img"><img src="./assets/css_icon.png" alt="Ícone CSS"></li>
+                    <li class = "skills__item">CSS</li>
+                    </ul> 
+                </div>
+            </div>
 
         </section>
 
         <section class = "hobbies" id="hobbies">
-            <h3 class = 'hobbies__titulo'></h3>
+            <h3 class = "hobbies__titulo">Hobbies</h3>
 
-            <div class = "hobbies__box">
-                <ul>
-                 <li class = "hobbies__img"><img src="" alt=""></li>
-                 <li class = "hobbies__item">Assistir séries</li>
-                </ul> 
-             </div>
+            <div class="hobbies__area">
+                <div class = "hobbies__box">
+                    <ul>
+                    <li class = "hobbies__img"><img src="./assets/tv_icon.png" alt="ícone tv"></li>
+                    <li class = "hobbies__item">Assistir séries</li>
+                    </ul> 
+                </div>
 
-             <div class = "hobbies__box">
-                <ul>
-                 <li class = "hobbies__img"><img src="" alt=""></li>
-                 <li class = "hobbies__item">Ouvir música</li>
-                </ul> 
-             </div>
+                <div class = "hobbies__box">
+                    <ul>
+                    <li class = "hobbies__img"><img src="./assets/headphones_icon.png" alt="ícone headphones"></li>
+                    <li class = "hobbies__item">Ouvir música</li>
+                    </ul> 
+                </div>
 
-             <div class = "hobbies__box">
-                <ul>
-                 <li class = "hobbies__img"><img src="" alt=""></li>
-                 <li class = "hobbies__item">Ler</li>
-                </ul> 
-             </div>
+                <div class = "hobbies__box">
+                    <ul>
+                    <li class = "hobbies__img"><img src="./assets/livro.png" alt="ícone livro"></li>
+                    <li class = "hobbies__item">Ler</li>
+                    </ul> 
+                </div>
 
-             <div class = "hobbies__box">
-                <ul>
-                 <li class = "hobbies__img"><img src="" alt=""></li>
-                 <li class = "hobbies__item">Jogar</li>
-                </ul> 
-             </div>
+                <div class = "hobbies__box">
+                    <ul>
+                    <li class = "hobbies__img"><img src="./assets/jogo.png" alt="ícone joystiy6666666666666666tgfc "></li>
+                    <li class = "hobbies__item">Jogar</li>
+                    </ul> 
+                </div>
+            </div>
 
         </section>
 
         <section class = "formacao">
             <h2 class = "formacao__titulo" id="formacao">Formação acadêmica</h2>
+             <div class = "formacao__area">
                 <div class="formacao__box">
-                    <ul class="formacao__lista">
-                        <li class="formacao__img"><img src=""></li>
-                        <li class="formacao__titulo"><h4>Odontologia</h4></li>
-                        <li class="formacao__subtitulo"><p>2021 - Unimontes</p></li>
-                    </ul>
+                    <div class="formacao__img"><img src="./assets/logo-unimontes.png" alt="Logo da Unimontes"></div>
+                    <div class="formacao__descricao">
+                        <ul class="formacao__lista"> 
+                            <li class="formacao__texto"><h4>Odontologia</h4></li>
+                            <li class="formacao__subtexto"><p>2021 - Unimontes</p></li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="formacao__box">
-                    <ul class="formacao__lista">
-                        <li class="formacao__img"><img src=""></li>
-                        <li class="formacao__titulo"><h4>Front-end</h4></li>
-                        <li class="formacao__subtitulo"><p>Em andamento - Alura</p></li>
-                    </ul>
+                     <div class="formacao__img"><img src="./assets/image 8.png" alt="Logo da Alura"></div>
+                     <div class="formacao__descricao">
+                        <ul class="formacao__lista">
+                            <li class="formacao__texto"><h4>Front-end</h4></li>
+                            <li class="formacao__subtexto"><p>Em andamento - Alura</p></li>
+                         </ul>
+                    </div>
                 </div>
+            </div>
 
         </section>
 
         <section class = "projetos">
             <h2 class = "projetos__titulo" id="projetos">Experiência profissional</h2>
                 <div class = "projetos__box">
-                    <img class ="projetos__img" src="">
+                    <img class ="projetos__img" src="./assets/decodificador-projeto.png" alt="Imagem do projeto decodificador">
                     <div class ="projetos__info">
                         <h2 class ="projeto__nome">Decodificador de texto</h2>
                         <h3 class="projeto__texto">Challenge Alura Codificador </h3>
-                            <div class="projeto__descrcao">
-                                    <span class="projeto__repo"><a href=""><button class="projeto__botao--repo">Repositório</button></a></span>
-                                    <span class="projeto__demo"><a href=""><button class="projeto__botao--demo">Ver demo</button></a></span>
+                            <div class="projeto__descricao">
+                                    <span class="projeto__repo"><a href="#" class = "projeto__btn"><button class="projeto__botao--repo">Repositório</button></a></span>
+                                    <span class="projeto__demo"><a href="#" class = "projeto__btn"><button class="projeto__botao--demo">Ver demo</button></a></span>
                             </div>
                     </div>
                 </div>  
@@ -143,17 +166,17 @@
         <section class = "contato">
             <div class = "contato__formulario" id="contato">
                 <div class= "contato__area--img">
-                    <img class = "contato__img" src="">
+                    <img class = "contato__img" src="./assets/contact_image.png">
                 </div>
                 <div class = "contato__texto">
                     <h2 class="contato__titulo">Contato</h2>
                     <h3 class="contato__subtexto">Quer entrar em contato comigo?</h3>
-                    <h3 class="formulario__subtexto">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
+                    <h3 class="contato__subtexto">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
                     <form class="formulario">
                         <input class="formulario__input" type="text" id="nome" placeholder="Nome">
                         <input class="formulario__input" type="email" id="email" placeholder="Email">
                         <input class="formulario__input" type="text" id="assunto" placeholder="Assunto">
-                        <textarea class="formulario__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+                        <textarea class="formulario__textarea"  id="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
                         <button class="formulario__botao">Enviar mensagem</button>
                     </form>
                 </div>

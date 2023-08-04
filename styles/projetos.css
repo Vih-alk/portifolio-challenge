@@ -1,0 +1,89 @@
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 71rem;
+}
+
+.projetos__titulo {
+    color: var(--preto);
+    font-size: 32px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 2rem 0;
+}
+
+.projetos__box {
+    display: flex;
+
+    align-items: center;
+    gap: 1rem;
+}
+
+.projetos__img {
+    width: 40rem;
+    height: 23rem;
+    padding: 2rem;
+}
+
+.projeto__nome {
+    color: var(--preto);
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-self: stretch;
+    padding: 0.5rem 0;
+    }
+
+.projeto__texto {
+    color: var(--preto);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0.5rem 0;
+}
+.projeto__descricao {
+    display: flex;
+    width: 35rem;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.projeto__btn {
+    text-decoration: none;
+}
+
+.projeto__botao--repo {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    color: var(--azul);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid var(--azul);
+}
+.projeto__botao--demo {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    color: var(--branco);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--azul);
+    border: 1px solid var(--azul);
+
+}
+

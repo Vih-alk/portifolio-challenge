@@ -1,0 +1,37 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5.5rem;
+    align-self: stretch;
+}
+
+.skills__area {
+    width: 71rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 4rem;
+}
+
+.skills__titulo {
+    color: var(--preto);
+    font-size: 32px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 2rem 0;
+}
+
+.skills__box {
+    background-color: var(--branco);
+    display: flex;
+    width: 11rem;
+    height: 10.875rem;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 0.5rem;
+}

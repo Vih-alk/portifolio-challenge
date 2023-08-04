@@ -1,0 +1,62 @@
+.titulo {
+    display: flex;
+    width: 71rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.titulo__div {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.titulo__foto {
+    background: url('../assets/foto.jpeg');
+    width: 23rem;
+    height: 23rem;
+    border-radius: 23rem;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+
+}
+
+
+.titulo__bio {
+    color:var(--preto);
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-self: stretch;
+}
+
+.titulo__descricao {
+    color: var(--preto);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: stretch;
+    padding: 1.5rem 0;
+}
+
+.titulo__redes {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.titulo__redes a {
+    color: var(--preto);
+    text-decoration: none;
+}
+
