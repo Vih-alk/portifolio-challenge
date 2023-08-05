@@ -24,7 +24,7 @@
 }
 
 .projetos__img {
-    width: 40rem;
+    width: 35rem;
     height: 23rem;
     padding: 2rem;
 }
@@ -70,6 +70,7 @@
     font-weight: 400;
     line-height: normal;
     border: 1px solid var(--azul);
+    border-radius: 0.3rem;
 }
 .projeto__botao--demo {
     display: flex;
@@ -84,6 +85,14 @@
     line-height: normal;
     background: var(--azul);
     border: 1px solid var(--azul);
+    border-radius: 0.25rem;
 
+}
+
+.projeto__botao--demo:hover, .projeto__botao--repo:hover {
+    cursor: pointer;
+    color: var(--roxo);
+    transition: 0.25s all;
+    
 }
 

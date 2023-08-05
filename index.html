@@ -2,7 +2,7 @@
 <html lang = "pt-br">
     <head>
         <meta charset = "UTF-8">
-        <meta name = "viewport" content="width = device-width, initial-scale 1.0">
+        <meta name = "viewport" content="width = device-width, initial-scale = 1.0">
         <link rel="stylesheet" href = "./styles/reset.css">
         <link rel="stylesheet" href = "./styles/base.css">
         <link rel="stylesheet" href = "./styles/cabecalho.css">
@@ -28,7 +28,7 @@
                     <li class = "menu__item"><a href ="#hobbies">Hobbies</a></li>
                     <li class = "menu__item"><a href ="#formacao">Formação</a></li>
                     <li class = "menu__item"><a href ="#projetos">Projetos</a></li>
-                    <li class = "menu__item"><a href ="#contato">Contato</a></li>
+                    <li class = "menu__item"><a href ="#contato">contato@vivianalkmim.com</a></li>
                 </ul>
             </nav>
         </header>
@@ -39,10 +39,10 @@
                     <h2 class="titulo__bio">Olá, meu nome é Vívian, e construo páginas web</h2>
                     <h3 class="titulo__descricao">Eu sou formada em Odontologia e recentemente iniciei um processo de transicão para área de tecnologia. Para trilhar esse novo caminho, atualmente estou participando no projeto Oracle ONE na Alura.</h3>
                     <ul class="titulo__redes">
-                        <li class="titulo__redes__item"><a href="">Github <img src="./assets/arrow.png"> </a></li>
-                        <li class="titulo__redes__item"><a href="">Linkedin <img src="./assets/arrow.png"></a></li>
-                        <li class="titulo__redes__item"><a href="">Instagram <img src="./assets/arrow.png"></a></li>
-                        <li class="titulo__redes__item"><a href="">Curriculo <img src="./assets/arrow.png"></a></li>
+                        <li class="titulo__redes__item"><a href="https://github.com/Vih-alk"> Github <img src="./assets/arrow.png"> </a></li>
+                        <li class="titulo__redes__item"><a href="https://www.linkedin.com/in/v%C3%ADvian-alkmim-alves-bb55a5270/">Linkedin <img src="./assets/arrow.png"></a></li>
+                        <li class="titulo__redes__item"><a href="https://www.instagram.com/vih_alkmim/">Instagram <img src="./assets/arrow.png"></a></li>
+                        <li class="titulo__redes__item"><a href="./assets/Currículo - Vívian Alkmim Alves (1).pdf">Curriculo <img src="./assets/arrow.png"></a></li>
                     </ul>
                 </div>
             </div>
@@ -155,8 +155,8 @@
                         <h2 class ="projeto__nome">Decodificador de texto</h2>
                         <h3 class="projeto__texto">Challenge Alura Codificador </h3>
                             <div class="projeto__descricao">
-                                    <span class="projeto__repo"><a href="#" class = "projeto__btn"><button class="projeto__botao--repo">Repositório</button></a></span>
-                                    <span class="projeto__demo"><a href="#" class = "projeto__btn"><button class="projeto__botao--demo">Ver demo</button></a></span>
+                                    <span class="projeto__repo"><a href="https://github.com/Vih-alk/challenge-alura" class = "projeto__btn"><button class="projeto__botao--repo">Repositório</button></a></span>
+                                    <span class="projeto__demo"><a href="https://vih-alk.github.io/challenge-alura/" class = "projeto__btn"><button class="projeto__botao--demo">Ver demo</button></a></span>
                             </div>
                     </div>
                 </div>  
@@ -173,11 +173,26 @@
                     <h3 class="contato__subtexto">Quer entrar em contato comigo?</h3>
                     <h3 class="contato__subtexto">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
                     <form class="formulario">
-                        <input class="formulario__input" type="text" id="nome" placeholder="Nome">
-                        <input class="formulario__input" type="email" id="email" placeholder="Email">
-                        <input class="formulario__input" type="text" id="assunto" placeholder="Assunto">
-                        <textarea class="formulario__textarea"  id="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
-                        <button class="formulario__botao">Enviar mensagem</button>
+                        <fieldset class="formulario__campo">
+                            <input class="formulario__input" type="text" minlength="3" maxlength="50" id="nome" placeholder="Nome" required>
+                            <span class="mensagem__erro"></span>
+                        </fieldset>
+                        <fieldset class="formulario__campo">
+                            <input class="formulario__input" type="email" minlength="6" id="email" placeholder="Email" required>
+                            <span class="mensagem__erro"></span>
+                        </fieldset>
+                        <fieldset class="formulario__campo">
+                            <input class="formulario__input" type="text" minlength="5" maxlength="50" id="assunto" placeholder="Assunto" required>
+                            <span class="mensagem__erro"></span>
+                        </fieldset>
+                        <fieldset class="formulario__campo">
+                            <textarea class="formulario__textarea" minlength="15" maxlength="300" id="mensagem" placeholder="Mensagem" required></textarea>
+                            <span class="mensagem__erro"></span>
+                        </fieldset>
+                        <fieldset>
+                            <button class="formulario__botao">Enviar mensagem</button>
+                            <span class="mensagem__enviar"></span>
+                        </fieldset>
                     </form>
                 </div>
             </div>
@@ -191,6 +206,6 @@
             <p>2023</p>
         </div>
     </footer>
-    <script src=""></script>
+    <script src="./script.js"></script>
 
 </html>

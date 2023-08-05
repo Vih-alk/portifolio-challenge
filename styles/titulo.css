@@ -60,3 +60,9 @@
     text-decoration: none;
 }
 
+.titulo__redes a:hover {
+    color: var(--roxo);
+    text-decoration: underline;
+    transition: 0.5seg all;
+}
+

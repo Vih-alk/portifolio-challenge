@@ -52,11 +52,21 @@
     align-items: flex-start;
     gap: 0.4375rem;
     align-self: stretch;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
     border: none;
     width: 41rem;
     height: 3.5rem ;
 
+}
+
+.mensagem__erro {
+    color: var(--vermelho);
+    font-size: 0.8rem;
+}
+
+.mensagem__enviar {
+    color: var(--roxo);
+    font-size: 1rem;
 }
 
 .formulario__textarea {
@@ -70,10 +80,16 @@
     align-items: flex-start;
     gap: 0.4375rem;
     align-self: stretch;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
     border: none;
     width: 41rem;
     height: 5.75rem ;
+}
+
+.formulario__input:focus, .formulario__textarea:focus {
+    box-shadow: 0 0 0 0;
+    border: none;
+    outline: 0;
 }
 
 .formulario__botao {
@@ -86,4 +102,14 @@
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
+    border-radius: 0.25rem;
+    margin: 1rem 0;
 }
+
+.formulario__botao:hover {
+    color: var(--roxo);
+    cursor: pointer;
+    padding: 1.03rem;
+    transition: 0.5seg all;
+}
+

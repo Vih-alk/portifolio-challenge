@@ -51,6 +51,12 @@
 
 }
 
+.menu__item a:hover {
+    color: var(--roxo);
+    text-decoration: underline;
+    transition: 0.5seg all;
+}
+
 .menu__item:last-child {
     font-weight: 700;
 }
