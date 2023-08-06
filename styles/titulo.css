@@ -1,38 +1,27 @@
 .titulo {
     display: flex;
-    width: 71rem;
     justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
 
 }
 
 .titulo__div {
     display: flex;
-    width: 70%;
     flex-direction: column;
-    align-items: flex-start;
+    margin: 1rem;;
     gap: 1.5rem;
-    align-items: flex-start;
     flex-shrink: 0;
 }
 
 .titulo__foto {
-    background: url('../assets/foto.jpeg');
-    width: 23rem;
-    height: 23rem;
-    border-radius: 23rem;
-    background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin: 0 auto;
+	margin: 1 auto;
+
 
 }
 
-
 .titulo__bio {
     color:var(--preto);
-    font-size: 52px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -41,7 +30,6 @@
 
 .titulo__descricao {
     color: var(--preto);
-    font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -52,7 +40,6 @@
 .titulo__redes {
     display: flex;
     align-items: flex-start;
-    gap: 2rem;
 }
 
 .titulo__redes a {
@@ -64,5 +51,84 @@
     color: var(--roxo);
     text-decoration: underline;
     transition: 0.5seg all;
+}
+
+@media screen and (min-width: 0) {
+    .titulo{
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 2rem 0;
+    } 
+    .titulo__div{
+        width: 80%;
+    }
+    .titulo__foto {
+        width: 6.125rem;
+        height: 6.125rem;
+        border-radius: 6.125rem;
+        align-self: flex-start;
+        margin-left: 1rem;
+    }
+    .titulo__descricao {
+        font-size: 14px;
+    }
+    .titulo__redes{
+        font-size: 14px;
+        gap: 0.5rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .titulo{
+        width: 100%;
+        flex-direction: row;
+        padding: 2rem 0;
+    }
+    .titulo__div{
+        width: 70%;
+    }
+    .titulo__foto {
+        width: 9.125rem;
+        height: 9.125rem;
+        border-radius: 9.125rem;
+        align-self: normal;
+    }
+    .titulo__bio {
+        font-size: 22px;
+    }
+    .titulo__descricao {
+        font-size: 16px;
+    }
+    .titulo__redes {
+        font-size: 16px;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .titulo{
+        width: 71rem;
+        flex-direction: row;
+        padding: 2rem;
+    }
+    .titulo__div{
+        width: 70%;
+    }
+    .titulo__foto {
+        width: 23rem;
+        height: 23rem;
+        border-radius: 23rem;
+    }
+    .titulo__bio {
+        font-size: 52px;
+    }
+    .titulo__descricao {
+        font-size: 22px;
+    }
+    .titulo__redes{
+        font-size: 16px;
+        gap: 2rem;
+    }
 }
 

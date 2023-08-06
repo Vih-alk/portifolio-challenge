@@ -3,12 +3,10 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    width: 71rem;
 }
 
 .projetos__titulo {
     color: var(--preto);
-    font-size: 32px;
     text-align: center;
     font-style: normal;
     font-weight: 700;
@@ -18,20 +16,13 @@
 
 .projetos__box {
     display: flex;
-
     align-items: center;
     gap: 1rem;
 }
 
-.projetos__img {
-    width: 35rem;
-    height: 23rem;
-    padding: 2rem;
-}
 
 .projeto__nome {
     color: var(--preto);
-    font-size: 1.375rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -41,7 +32,6 @@
 
 .projeto__texto {
     color: var(--preto);
-    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -65,7 +55,6 @@
     align-items: center;
     gap: 0.625rem;
     color: var(--azul);
-    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -79,7 +68,6 @@
     align-items: center;
     gap: 0.625rem;
     color: var(--branco);
-    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -96,3 +84,78 @@
     
 }
 
+@media screen and (min-width: 0) {
+    .projetos{
+        width: 100%;
+    }
+    .projetos__titulo{
+        font-size: 16px;
+    }
+    .projetos__box{
+        flex-direction: column;
+    }
+    .projetos__img{
+        width: 22rem;
+        height: 15rem;
+    }
+    .projetos__info{
+        width: 22rem;
+        margin-bottom: 1rem;
+    }
+    .projeto__nome{
+        font-size: 14px;
+    }
+    .projeto__texto .projeto__botao--demo .projeto__botao--repoy{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .projetos{
+        width: 100%;
+    }
+    .projetos__titulo{
+        font-size: 22px;
+    }
+    .projetos__box{
+        flex-direction: column;
+    }
+    .projetos__img{
+        width: 27rem;
+        height: 17rem;
+    }
+    .projetos__info{
+        width: 27rem;
+    }
+    .projeto__nome{
+        font-size: 16px;
+    }
+    .projeto__texto .projeto__botao--demo .projeto__botao--repo{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .projetos{
+        width: 71rem;
+    }
+    .projetos__titulo{
+        font-size: 32px;
+    }
+    .projetos__box{
+        flex-direction: row;
+    }
+    .projetos__img{
+        width: 35rem;
+        height: 23rem;
+    }
+    .projetos__info{
+        width: auto;
+    }
+    .projeto__nome{
+        font-size: 22px;
+    }
+    .projeto__texto .projeto__botao--demo .projeto__botao--repo{
+        font-size: 16px;
+    }
+}
