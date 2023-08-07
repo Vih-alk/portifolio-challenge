@@ -34,6 +34,9 @@
 }
 
 @media screen and (min-width: 0) {
+    .skills{
+        width: 100%;
+    }
     .skills__area{
         width: 100%;
     }  
@@ -48,6 +51,9 @@
 } 
 
 @media screen and (min-width: 768px) {
+    .skills{
+        width: 100%;
+    }
     .skills__area{
         width: 100%;
     }  
